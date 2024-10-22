@@ -1,0 +1,107 @@
+/* Importing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Applying the imported font to the entire application */
+body {
+  font-family: "Poppins", system-ui; /* Default font for the body */
+  background-color: #e9f7fc; /* Light grey background for the entire page */
+  margin: 0;
+  padding: 0;
+}
+
+/* Specific styles for h1 */
+h1 {
+  font-family: "Poppins", system-ui;
+  font-weight: 700; /* poppins-bold */
+  font-style: normal;
+  color: #007bff; /* Primary color */
+  margin-bottom: 1rem; /* Margin for spacing */
+}
+
+/* Styles for h2 */
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #343a40; /* Dark grey color for headings */
+  margin-bottom: 1rem; /* Margin for spacing */
+}
+
+/* Styles for .card */
+.card {
+  background-color: #ffffff; /* White background for cards */
+  border-radius: 8px; /* Rounded corners for cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for cards */
+  margin-bottom: 1.5rem; /* Margin for spacing */
+}
+
+/* Styles for .card-title */
+.card-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500; /* roboto-medium */
+  color: #212529; /* Darker grey color for card titles */
+  margin-bottom: 1rem; /* Margin for spacing */
+}
+
+/* Styles for buttons */
+.btn {
+  font-family: "Roboto", sans-serif;
+  border-radius: 4px; /* Rounded corners for buttons */
+}
+
+/* Primary button styles */
+.btn-primary {
+  background-color: #007bff; /* Primary color */
+  border: none; /* Remove default border */
+  color: #ffffff; /* White text color */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+/* Success button styles */
+.btn-success {
+  background-color: #28a745; /* Success color */
+  border: none; /* Remove default border */
+  color: #ffffff; /* White text color */
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Darker shade for hover effect */
+}
+
+/* Danger button styles */
+.btn-danger {
+  background-color: #dc3545; /* Danger color */
+  border: none; /* Remove default border */
+  color: #ffffff; /* White text color */
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Darker shade for hover effect */
+}
+
+/* Warning button styles */
+.btn-warning {
+  background-color: #ffc107; /* Warning color */
+  border: none; /* Remove default border */
+  color: #212529; /* Dark text color */
+}
+
+.btn-warning:hover {
+  background-color: #e0a800; /* Darker shade for hover effect */
+}
+
+/* Styles for list group items */
+.list-group-item {
+  background-color: #ffffff; /* White background for list items */
+  border: 1px solid #dee2e6; /* Light border for list items */
+  border-radius: 4px; /* Rounded corners for list items */
+  margin-bottom: 0.5rem; /* Margin for spacing */
+}
+
+.list-group-item strong {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700; /* roboto-bold */
+}

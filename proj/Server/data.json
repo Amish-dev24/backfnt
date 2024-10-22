@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "name": "Amish",
+      "age": "20",
+      "contact": "0316429224",
+      "id": 1
+    },
+    {
+      "name": "Imaz",
+      "age": "22",
+      "contact": "03164292125",
+      "id": 2
+    },
+    {
+      "name": "Asim",
+      "age": "25",
+      "contact": "0316429126",
+      "id": 3
+    },
+    {
+      "name": "Alika",
+      "age": "32",
+      "contact": "030012121212",
+      "id": 4
+    },
+    {
+      "name": "Hassan",
+      "age": "18",
+      "contact": "03164292124",
+      "id": 6
+    },
+    {
+      "name": "Faisal",
+      "age": "35",
+      "contact": "03164292124",
+      "id": 7
+    }
+  ]
+}
